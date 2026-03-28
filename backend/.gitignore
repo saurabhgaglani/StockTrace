@@ -1,0 +1,58 @@
+# Python
+
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Virtual environment
+# Standard virtual environment names
+.venv/
+env/
+venv/
+env.bak/
+
+# Dependency management specific
+.direnv/
+pip-wheel-cache/
+.python-version
+
+# Poetry
+.venv
+# Pipenv
+
+Pipfile.lock # generally recommended to include in version control, but some choose to ignore
+
+# Editor/IDE-specific files
+
+.idea/          # JetBrains IDEs (PyCharm, etc)
+.vscode/        # VS Code
+*.swp
+*~
+
+# Operating System files
+.DS_Store       # macOS
+
+# Linux
+*.thumbdata[0-9]*
+
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Environment variables and secrets
+.env
+.flaskenv
+#
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+
+# Build artifacts
+dist/
+build/

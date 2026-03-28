@@ -1,0 +1,9 @@
+{
+  "name": "stocktrace-notify",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@photon-ai/imessage-kit": "latest",
+    "better-sqlite3": "latest"
+  }
+}
