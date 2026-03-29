@@ -3,6 +3,7 @@
 const { IMessageSDK } = require("@photon-ai/imessage-kit");
 
 async function main() {
+  console.log("HERE_IN_NOTIFY")
   const to = process.env.TO;
   const message = process.env.MESSAGE;
   if (!to || !message) {
