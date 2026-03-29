@@ -124,6 +124,8 @@ async def _run_analysis(symbol: str, event: dict) -> dict:
     )
 
     # Fire iMessage alert (non-blocking)
+    if event.get("id") == "demo-1":
+        print("[demo-test] Firing alert for Tesla + Mali event.")
     send_alert(symbol, event["headline"], explanation)
 
     return {
