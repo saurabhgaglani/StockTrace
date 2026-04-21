@@ -1,4 +1,4 @@
-````markdown
+
 # StockTrace
 
 **From headline to context in seconds — we trace the impact so you don't have to.**
@@ -65,4 +65,4 @@ Then open [http://localhost:3000](http://localhost:3000).
 ## Disclaimer
 
 StockTrace provides market context only — **not financial advice**. Always do your own research before making investment decisions.
-````
+
